@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // ✅ Fixed baseURL
-export const baseURL = "http://localhost:8080/room";
+export const baseURL = "https://chatappbackend-production-cf63.up.railway.app";
 
 export const publicAxios = axios.create({
     baseURL: baseURL,
